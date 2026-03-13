@@ -1,18 +1,45 @@
-# React + Vite
+## Running the Project Locally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Follow these steps to run the Vite + React project on your machine.
 
-Currently, two official plugins are available:
+### 1. Clone the repository
+```bash or powershell
+git clone https://github.com/LesediNtamane/health-overview.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2. Navigate to the project folder
+```bash 
+cd your-repository-name
+```
 
-## React Compiler
+### 3. Install dependencies
+Make sure you have Node.js installed, then run:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```bash
+npm install
+```
 
-Note: This will impact Vite dev & build performances.
+### 4. Start the development server
+```bash
+npm run dev
+```
 
-## Expanding the ESLint configuration
+### 5. Open the project
+After running the command, Vite will provide a local development URL.  
+Open it in your browser:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+http://localhost:5173
+```
+
+### Available Scripts
+
+| Command | Description |
+|--------|-------------|
+| npm run dev | Starts the development server |
+| npm run build | Builds the project for production |
+| npm run preview | Preview the production build locally |
+
+### Requirements
+- Node.js (v16 or later recommended)
+- npm
